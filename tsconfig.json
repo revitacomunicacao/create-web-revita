@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "./dist-ts", // ou remova se não for usar build TypeScript puro
+    "rootDir": "./src",
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM","ESNext"],
